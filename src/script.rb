@@ -1,7 +1,7 @@
 require 'matrix'
 class board
-  def initialize(rows,columns)
-    @dimension=Matrix.build(rows,columns){'□'}
+  def initialize(rows,col)
+    @dimension=Matrix.build(rows,col){cell.new}
   end
 
   def print_board
@@ -9,8 +9,37 @@ class board
   end
 end
 
-class game_of_life
+class gameOfLife
+  attr_accesor: board
+  
+  def initialize(rows,col)
+    @board = board.new(rows,col)
+
+  end
+
+
+  def generations
+
+  end
+
 end
 
 class cells
+
+  def initialize
+    @alive='□'
+    @position=
+  end
+
+  def cellPosition(row,col)
+    @dimension(row,col)  
+  end
+
+  def checkNeighbor()
+  
+  end
+  
+  def deadOrAlive(aliveNeighbors)
+  end
+
 end
