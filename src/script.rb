@@ -1,9 +1,10 @@
 require 'matrix'
+
 class board
   def initialize(rows,col)
     @dimension=Matrix.build(rows,col){cell.new}
   end
-
+  
   def print_board
     @dimension.to_a.each { |row| puts row.join('') }
   end
@@ -11,35 +12,28 @@ end
 
 class gameOfLife
   attr_accesor: board
-  
   def initialize(rows,col)
     @board = board.new(rows,col)
-
   end
-
-
-  def generations
-
-  end
-
 end
 
-class cells
+# class Cell
 
-  def initialize
-    @alive='□'
-    @position=
-  end
+#   def initialize
+#     @alive='□'
+#     @position=
+#   end
 
-  def cellPosition(row,col)
-    @dimension(row,col)  
-  end
+#   def cellPosition(row,col)
+#     @dimension(row,col)  
+#   end
 
-  def checkNeighbor()
+#   def checkNeighbor()
   
-  end
+#   end
   
-  def deadOrAlive(aliveNeighbors)
-  end
+#   def deadOrAlive(aliveNeighbors)
+  
+#   end
 
-end
+# end
