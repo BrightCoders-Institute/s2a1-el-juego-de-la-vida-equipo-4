@@ -1,7 +1,8 @@
-require './spec_helper.rb'
-require '../src/script.rb'
+require 'spec_helper'
+require 'board_spec'
+require 'script_spec'
+require 'cell_spec'
 
 describe 'script' do
     
   end
-end
