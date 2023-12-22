@@ -1,3 +1,4 @@
+
 require "./cell.rb"
 require "./board.rb"
 require "./gameOfLife.rb"
@@ -9,3 +10,5 @@ gen = gets.chomp.to_i
 
 game = GameOfLife.new(dim, dim)
 game.generations(gen)
+
+
