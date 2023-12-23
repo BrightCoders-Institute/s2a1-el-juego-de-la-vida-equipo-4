@@ -35,22 +35,26 @@ It consists of a grid of cells which, based on a few mathematical rules, can liv
 ```bash
 git https://github.com/BrightCoders-Institute/s2a1-el-juego-de-la-vida-equipo-4.git
 ```
-To install this program locally and execute it, the following steps must be followed:
-first, clone the repository:  
-git clone https://github.com/BrightCoders-Institute/s2a1-el-juego-de-la-vida-equipo-4.git
-Then proceed to install spec and rubocob within the project folder:  
-$bundle install  
-Then execute the code as a generic ruby ​​code.  
 
-To run the test in srspec, execute the following command:  
+# To install this program locally and execute it, the following steps must be followed:
 
-$rspec  
+## first, clone the repository: git https://github.com/BrightCoders-Institute/s2a1-el-juego-de-la-vida-equipo-4.git
+## Then proceed to install spec and rubocob within the project folder:  
+## $bundle  install  
+## Then execute the code as a generic ruby ​​code. 
+## Then proceed to install spec and rubocob within the project folder:  
+## $bundle  install  
+## Then execute the code as a generic ruby ​​code. 
+## To run the test in srspec, execute the following command:  
+## $rspec  
 
-- How to Use the Project.  
+# To Use the Project.  
+## To use this program, you need to enter the size of the board and a number to generate the quantity of cells.
 
-- Credits
-This project was developed by [
-* Co-authored-by: AlejandroEscobarCampos <ae339640@gmail.com>
-
-]
-- Badges
+# Credits
+## This project was developed by [
+## * Co-authored-by: CaroSer<adrianaserrano185@outlook.com>
+## * Co-authored-by: AlejandroEscobarCampos <ae339640@gmail.com>
+## * Co-authored-by: etormasa <hector.meza.141@gmail.com>
+## * Co-authored-by: AnaCarrizales<acarrizales2@ucol.mx>
+## ]
