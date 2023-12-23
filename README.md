@@ -1,19 +1,40 @@
 ![BrightCoders Logo](img/logo.png)
 
-# El juego de la vida
+# The game of life 
 
-> [Ver instrucciones antes de iniciar](./instructions.md)
+## Table of contents
+```
+└── 📁s2a1-el-juego-de-la-vida-equipo-4
+    └── Gemfile
+    └── Gemfile.lock
+    └── README.md
+    └── 📁bin
+        └── source
+    └── 📁img
+        └── bowling.png
+        └── logo.png
+    └── instrucciones.txt
+    └── instructions.md
+    └── 📁spec
+        └── board_spec.rb
+        └── cell_spec.rb
+        └── gameOfLife_spec.rb
+        └── script_spec.rb
+        └── spec_helper.rb
+    └── 📁src
+        └── board.rb
+        └── cell.rb
+        └── gameOfLife.rb
+        └── script.rb
+```
 
-This README would normally document whatever steps are necessary to get the application up and running.
+## Description: 
+It consists of a grid of cells which, based on a few mathematical rules, can live, die or multiply. In this game, you print a matrix of live and dead cells, which will evaluate their neighbors to determine if they live or die.  
 
-Things you may want to cover:
-
-- Title or Project Name  
-   the game of life
-- Table of contents
-- Description. A brief description of what the project is about  
-In this game, you print a matrix of live and dead cells, which will evaluate their neighbors to determine if they live or die.  
-- How to Install and Run the Project.  
+## To install this proyect:
+```bash
+git https://github.com/BrightCoders-Institute/s2a1-el-juego-de-la-vida-equipo-4.git
+```
 To install this program locally and execute it, the following steps must be followed:
 first, clone the repository:  
 git clone https://github.com/BrightCoders-Institute/s2a1-el-juego-de-la-vida-equipo-4.git
@@ -28,4 +49,8 @@ $rspec
 - How to Use the Project.  
 
 - Credits
+This project was developed by [
+* Co-authored-by: AlejandroEscobarCampos <ae339640@gmail.com>
+
+]
 - Badges

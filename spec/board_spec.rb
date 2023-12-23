@@ -1,14 +1,12 @@
-require 'spec_helper'
-require 'board_spec'
-require 'script_spec'
-require 'cell_spec'
+require_relative '../src/board'
+require 'rspec'
 
-RSpec.describe 'script' do
-    describe '#initialize' do
-    it 'the code must create a matrix' do
-      matrix = Matrix.new
-      expect(matrix.rows).to eq(0)
-      expect(matrix.cols).to eq(0)
+describe Board do
+  context 'matrix not null' do
+    it 'defines and prints matrix' do
+      matrix = Board.new(1, 1)
+      matrix.print_board
+      expect(matrix.print_board).to be_nil
     end
   end
 end
